@@ -1,0 +1,68 @@
+From ed17ed04640b8a7e370e45e01abc3c1d21e8778e Mon Sep 17 00:00:00 2001
+From: momodayoo <msyauqi94@gmail.com>
+Date: Fri, 29 Mar 2024 12:23:28 +0800
+Subject: [PATCH] commit on main
+
+---
+ client3.py         |   1 +
+ multi_commit.patch | Bin 0 -> 8284 bytes
+ 2 files changed, 1 insertion(+)
+ create mode 100644 multi_commit.patch
+
+diff --git a/client3.py b/client3.py
+index 2f23979..056dbb2 100644
+--- a/client3.py
++++ b/client3.py
+@@ -42,6 +42,7 @@ def getDataPoint(quote):
+ def getRatio(price_a, price_b):
+     """ Get ratio of price_a and price_b """
+     """ ------------- Update this function ------------- """
++    if price_b === 0:
+     if price_b == 0:
+         return
+     return price_a / price_b
+diff --git a/multi_commit.patch b/multi_commit.patch
+new file mode 100644
+index 0000000000000000000000000000000000000000..a0e8606c8a3f9b966002c3f0f287aa4bfb82c909
+GIT binary patch
+literal 8284
+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
+
+literal 0
+HcmV?d00001
+
+-- 
+2.43.0.windows.1
+
